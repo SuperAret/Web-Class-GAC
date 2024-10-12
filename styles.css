@@ -1,0 +1,55 @@
+body {
+    width: 100vw;
+    height: 100%;
+    margin: 0;
+    background-color: aliceblue;
+    overflow-x: hidden;
+}
+fieldset {
+    margin: 20px;
+    padding: 20px;
+   
+}
+form {
+    width: 90vw;
+    padding: 20px;
+    
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 10px 10px 10px white;
+}
+input{
+    width: 96%;
+    min-height: 2em;
+    padding: 10px;
+}
+
+label{
+    display: block;
+    margin: 10px 0;
+   
+}
+.gender {
+    display: flex;
+   margin-left: 50px;
+   gap: 50px;
+}
+input[type="radio"] {
+    margin: 10px;
+    
+}
+
+.gender-option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+}
+
+button{
+    margin: 10px 0;
+    width: 80px;
+    height: 30px;
+}
